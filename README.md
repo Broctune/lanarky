@@ -14,6 +14,15 @@
 
 </div>
 
+# YPrime Install instructions
+
+NOTE: You probably don't have to do any of this. The project that uses langchain may need the forked version but this shouldn't
+
+- install poetry: curl -sSL https://install.python-poetry.org | python3 -
+- run: poetry install
+- run: pip uninstall langchain
+- run: pip install -e ~/GitHub/langchain/libs/langchain#egg=langchain  (sp?)
+
 A [FastAPI](https://github.com/tiangolo/fastapi) framework to build production-grade LLM applications.
 
 </div>
